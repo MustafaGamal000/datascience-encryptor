@@ -16,6 +16,10 @@ This repository must only contain encryption functionality.
 • Random IV generation
 • Base64 encrypted output
 
+## Live Interactive Demo
+Try the secure encryption interface directly in your browser:
+**👉 [DataScience Encryptor Web Demo](https://MustafaGamal000.github.io/datascience-encryptor/)**
+
 ## Requirements
 - Java 21
 - Maven

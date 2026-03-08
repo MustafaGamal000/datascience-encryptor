@@ -20,6 +20,9 @@ jobs:
         distribution: 'temurin'
         java-version: '21'
 
+    - name: Set executable permissions for Maven Wrapper
+      run: chmod +x mvnw
+
     - name: Build project
       run: ./mvnw -B clean verify
 

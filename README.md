@@ -21,8 +21,16 @@ This repository must only contain encryption functionality.
 - Maven
 
 ## Build Instructions
+We provide a Maven Wrapper (`mvnw`) so you can build the project without needing to install Maven globally.
+
+**On Windows:**
+```cmd
+mvnw.cmd clean package
+```
+
+**On Linux/Mac:**
 ```bash
-mvn clean package
+./mvnw clean package
 ```
 
 ## Running the Tool
